@@ -44,11 +44,12 @@ p:first-letter {
 footer p {
   font-size: 11px;
 }
-
+/* faz bordas das celulas da tabela se unirem em uma so linha*/
 table {
   border-collapse: collapse;
 }
 
+/*Aplica uma borda de um pixe, solida e preta em todas as celulas(td) e cabeçalhos(th)*/
 td, th {
   border: 1px solid black;
 }

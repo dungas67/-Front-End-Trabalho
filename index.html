@@ -1,236 +1,222 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cloreto de Cobre em Operação Big Hero</title>
-    <meta
-      name="description"
-      content="Trabalho de Química e Front-End sobre o Cloreto de Cobre(II) (CuCl₂) e sua presença no filme Operação Big Hero."
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lato:wght@300;400;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
-    />
-    <link rel="stylesheet" href="css/variables.css" />
-    <link rel="stylesheet" href="css/base.css" />
-    <link rel="stylesheet" href="css/layout.css" />
-    <link rel="stylesheet" href="css/components.css" />
-  </head>
-  <body>
-    <header id="topo">
-      <div class="header-conteudo">
-        <img src="img/logo.png" alt="Logo do trabalho" class="logo-img" width="110" height="110" />
-        <div>
-          <h1>Cloreto de Cobre em Operação Big Hero</h1>
-          <p>
-            Este site foi desenvolvido com o objetivo de apresentar e explicar a
-            presença da química inorgânica na animação Operação Big Hero,
-            mostrando como conceitos que estudamos em sala de aula podem aparecer
-            em situações presentes na ficção.
-          </p>
-        </div>
-      </div>
-    </header>
-
-    <nav aria-label="Menu principal">
-      <div class="nav-conteudo">
-        <button
-          class="nav-toggle"
-          type="button"
-          aria-label="Abrir menu"
-          aria-expanded="false"
-          aria-controls="menu-principal"
-        >
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-        <ul id="menu-principal">
-          <li><a href="#apresentacao">Apresentação</a></li>
-          <li><a href="#identificacao">Identificação</a></li>
-          <li><a href="#classificacao">Classificação</a></li>
-          <li><a href="#aparicao">Aparição na Obra</a></li>
-          <li><a href="#analise">Análise Científica</a></li>
-          <li><a href="#aplicacoes">Aplicações Reais</a></li>
-          <li><a href="#prova">Quiz</a></li>
-          <li><a href="#referencias">Referências</a></li>
-        </ul>
-      </div>
-    </nav>
-
-    <div class="banner">
-      <p class="banner-texto">Identificação, classificação e aplicações reais do CuCl₂</p>
-    </div>
-
-    <main>
-      <section id="apresentacao">
-        <div class="section-inner">
-          <p class="eyebrow">Sobre a obra</p>
-          <h2>Sobre o filme e a escolha do grupo</h2>
-          <p>
-            No filme Operação Big Hero, a personagem Honey Lemon utiliza uma bolsa
-            com reagentes químicos para criar compostos instantâneos. O Cloreto de
-            Cobre foi escolhido por ser um sal que gera cores e reações marcantes,
-            relacionando a ficção com a química real.
-          </p>
-
-          <dl class="fact-list">
-            <div>
-              <dt>Obra</dt>
-              <dd>Operação Big Hero</dd>
-            </div>
-            <div>
-              <dt>Autor(es)</dt>
-              <dd>Don Hall e Chris Williams</dd>
-            </div>
-            <div>
-              <dt>Ano</dt>
-              <dd>2014</dd>
-            </div>
-            <div>
-              <dt>Substância</dt>
-              <dd class="formula">Cloreto de Cobre (CuCl₂)</dd>
-            </div>
-          </dl>
-        </div>
-      </section>
-
-      <section id="identificacao" class="section-alt">
-        <div class="section-inner">
-          <p class="eyebrow">Identificação</p>
-          <h2>Identificação da substância</h2>
-          <dl class="fact-list">
-            <div>
-              <dt>Nome</dt>
-              <dd>Cloreto de Cobre(II)</dd>
-            </div>
-            <div>
-              <dt>Fórmula química</dt>
-              <dd class="formula">CuCl₂</dd>
-            </div>
-          </dl>
-  
-          <img
-            src="img/Cloreto_de_cobre.jpg"
-            alt="Amostra de Cloreto de Cobre (II)"
-            class="section-image"
-            loading="lazy"
-          />
-        </div>
-      </section>
-
-      <section id="classificacao">
-        <div class="section-inner">
-          <p class="eyebrow">Classificação</p>
-          <h2>Classificação química</h2>
-          <p>
-            O Cloreto de Cobre(II) é classificado como um sal inorgânico, solúvel
-            em água e formado pela ligação iônica entre o cátion cobre (Cu²⁺) e o
-            ânion cloreto (Cl⁻).
-          </p>
-        </div>
-      </section>
-
-      <section id="aparicao" class="section-alt">
-        <div class="section-inner">
-          <p class="eyebrow">Na obra</p>
-          <h2>Onde aparece no filme</h2>
-          <ul class="list-clean">
-            <li>
-              Na cena de demonstração das esferas químicas no laboratório
-              universitário.
-            </li>
-            <li>
-              Nas sequências de combate onde reações químicas geram efeitos de
-              fumaça e contenção.
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <section id="analise">
-        <div class="section-inner">
-          <p class="eyebrow">Ciência</p>
-          <h2>A ciência por trás da cena</h2>
-          <p>
-            Ao ser submetido à queima ou energia, o cobre emite luz de cor
-            verde-azulada característica. As esferas no filme aplicam esse
-            princípio para reações visuais rápidas.
-          </p>
-        </div>
-      </section>
-
-      <section id="aplicacoes" class="section-alt">
-        <div class="section-inner">
-          <p class="eyebrow">Mundo real</p>
-          <h2>No mundo real</h2>
-          <h3>Como é obtida</h3>
-          <p>
-            Obtido através da reação entre cobre metálico e cloro a altas
-            temperaturas, ou pela ação do ácido clorídrico sobre compostos de
-            cobre.
-          </p>
-          <h3>Usos industriais e cotidianos</h3>
-          <p>
-            Utilizado como catalisador em reações químicas, na fabricação de
-            pirotecnia (fogos de cor verde) e no tratamento de superfícies
-            metálicas.
-          </p>
-          <h3>Riscos à saúde e ao ambiente</h3>
-          <p>
-            É tóxico se ingerido e causa irritações na pele e olhos. Apresenta
-            toxicidade para a vida aquática.
-          </p>
-        </div>
-      </section>
-
-      <section id="prova">
-        <div class="section-inner">
-          <p class="eyebrow">Prova online</p>
-          <h2>Teste seus conhecimentos</h2>
-          <div class="quiz-container" id="quizContainer">
-            <p class="quiz-placeholder">Carregando quiz…</p>
-          </div>
-        </div>
-      </section>
-
-      <section id="referencias" class="section-alt">
-        <div class="section-inner">
-          <p class="eyebrow">Referências</p>
-          <h2>Fontes utilizadas</h2>
-          <ul class="list-clean">
-            <li>
-              ATKINS, Peter. Princípios de Química. 5. ed. Porto Alegre: Bookman,
-              2012.
-            </li>
-            <li>
-              Operação Big Hero. Direção: Don Hall, Chris Williams. Walt Disney
-              Studios, 2014.
-            </li>
-          </ul>
-        </div>
-      </section>
-    </main>
-
-    <div class="topo-final">
-      <a href="#topo" class="botao-topo">Voltar ao topo</a>
-    </div>
-
-    <footer>
-      <p>
-        Trabalho de Front-End Química — Cloreto de Cobre em
-        <em>Operação Big Hero</em>
-      </p>
-      <p>Integrantes - Luan de Oliveira Ferreira e Taylor da Rosa Silva</p>
-    </footer>
-
-    <script src="js/script.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8"> <!-- Define a codificação UTF-8 para suportar acentos -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsividade mobile -->
+  <title>Inteligência Artificial – Guia Educacional</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css"> <!-- Arquivo de estilos externo -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Pré-conexão para carregamento mais rápido das fontes -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet"> <!-- Importa a fonte Source Code Pro -->
+</head>
+<body>
+<header> <!-- Cabeçalho com título e introdução ao tema -->
+  <h1>Inteligência Artificial</h1> <!-- Titulo principal da página -->
+  <p> <!-- Parágrafo de texto comum -->
+    A Inteligência Artificial (IA) é um dos campos mais fascinantes e transformadores da Ciência da Computação.
+    Ela busca criar sistemas capazes de realizar tarefas que normalmente exigiriam inteligência humana,
+    como reconhecer imagens, entender linguagem natural, tomar decisões e aprender com experiências passadas.
+  </p>
+</header>
+<nav> <!-- Menu de navegação com links âncora para seções da página -->
+  <ul>
+    <li><a href="#inicio">Página Inicial</a></li>
+    <li class="destaque-nav"><a href="#aprendizado">Aprendizado de Máquina</a></li> <!-- Classe para destaque visual via CSS -->
+    <li><a href="#redes-neurais">Redes Neurais</a></li>
+    <li><a href="#aplicacoes">Aplicações da IA</a></li>
+    <li><a href="#etica">Ética em IA</a></li>
+  </ul>
+</nav>
+<main>
+  <div id="inicio"> <!-- Seção inicial: história e ramos da IA -->
+    <h2>O que é Inteligência Artificial?</h2> <!-- Subtítulo -->
+    <p>
+      A Inteligência Artificial surgiu como disciplina formal em 1956, durante a Conferência de Dartmouth, onde
+      cientistas como John McCarthy e Marvin Minsky definiram o objetivo de criar máquinas que pensassem como
+      humanos. Desde então, a área passou por períodos de grande entusiasmo e também por momentos de estagnação.
+      Hoje, com o poder computacional e a abundância de dados, a IA vive sua era mais promissora.
+    </p>
+    <p>
+      Existem diferentes abordagens para a IA. A <strong>IA Simbólica</strong> utiliza regras lógicas explícitas. <!-- strong deixa o texto em negrito -->
+      O <strong>Aprendizado de Máquina</strong> permite que sistemas aprendam padrões diretamente a partir de dados.
+      O <strong>Aprendizado Profundo</strong> usa redes neurais com muitas camadas para resolver problemas complexos.
+    </p>
+    <h2>Principais Ramos da IA</h2>
+    <p>A Inteligência Artificial se divide em diversas subáreas especializadas:</p>
+    <ul> <!-- Lista dos principais ramos da IA -->
+      <li><strong>Aprendizado de Máquina (ML):</strong> algoritmos que aprendem com dados.</li>
+      <li><strong>Processamento de Linguagem Natural (PLN):</strong> compreensão e geração de texto e fala.</li>
+      <li><strong>Visão Computacional:</strong> interpretação de imagens e vídeos por computadores.</li>
+      <li><strong>Robótica Inteligente:</strong> robôs que percebem e agem no mundo físico.</li>
+      <li><strong>Sistemas Especialistas:</strong> programas que simulam o conhecimento de um especialista humano.</li>
+      <li><strong>IA Generativa:</strong> modelos que criam conteúdo novo como textos, imagens e vídeos.</li>
+    </ul>
+  </div>
+  <div id="imagens"> <!-- Seção com imagens ilustrativas -->
+    <h2>Visualizando a IA</h2><!-- Cabeçalho com título e introdução ao tema -->
+    <p>
+      As redes neurais artificiais foram inspiradas na estrutura do cérebro humano. Cada neurônio artificial
+      recebe entradas, aplica um peso e passa o resultado adiante, formando camadas que aprendem
+      representações cada vez mais abstratas dos dados.
+    </p>
+    <figure> <!-- Figura 1: diagrama estático de rede neural -->
+      <img src="img/diagrama-rede-neural.png" alt="Diagrama de uma rede neural artificial com camadas de entrada, ocultas e saída" width="500">
+      <figcaption>Figura 1 – Arquitetura típica de uma Rede Neural Artificial.</figcaption>
+    </figure>
+    <figure> <!-- Figura 2: imagem clicável que abre link externo em nova aba -->
+      <a href="https://www.ibm.com/br-pt/topics/artificial-intelligence" target="_blank"> <!-- target="_blank" abre em nova aba -->
+        <img src="img/AI_and_Imaging_Diagnostics.png" alt="Aplicações da IA no cotidiano: carros autônomos, assistentes virtuais e diagnósticos médicos" width="500">
+      </a>
+      <figcaption>Figura 2 – Aplicações da IA no cotidiano (clique para saber mais).</figcaption>
+    </figure>
+  </div>
+  <div id="aprendizado"> <!-- Seção sobre Aprendizado de Máquina com tabela comparativa -->
+    <h2>Aprendizado de Máquina</h2>
+    <p>
+      O Aprendizado de Máquina é a espinha dorsal da IA moderna. Em vez de programar regras manualmente,
+      fornecemos ao algoritmo um conjunto de dados de treinamento e ele descobre os padrões por conta própria.
+    </p>
+    <h2>Comparativo dos Tipos de Aprendizado</h2>
+    <p>A tabela a seguir resume os principais paradigmas de aprendizado de máquina:</p>
+    <table>
+      <caption>Tabela 1 – Paradigmas de Aprendizado de Máquina</caption>
+      <thead> <!-- Cabeçalho da tabela -->
+        <tr>
+          <th>Paradigma</th>
+          <th>Descrição</th>
+          <th>Algoritmos Comuns</th>
+          <th>Exemplo de Uso</th>
+        </tr>
+      </thead>
+      <tbody> <!-- Corpo da tabela com os dados -->
+        <tr>
+          <td>Supervisionado</td>
+          <td>Aprende com dados rotulados.</td>
+          <td>Regressão, SVM, Árvores de Decisão</td>
+          <td>Detectar spam em e-mails</td>
+        </tr>
+        <tr class="linha-destaque"> <!-- Linha com destaque visual via CSS -->
+          <td>Não Supervisionado</td>
+          <td>Encontra padrões em dados sem rótulos.</td>
+          <td>K-Means, PCA, Autoencoders</td>
+          <td>Segmentação de clientes</td>
+        </tr>
+        <tr>
+          <td>Por Reforço</td>
+          <td>Aprende por tentativa e erro.</td>
+          <td>Q-Learning, PPO, A3C</td>
+          <td>Jogar xadrez, robótica</td>
+        </tr>
+        <tr>
+          <td>Semi-supervisionado</td>
+          <td>Combina dados rotulados e não rotulados.</td>
+          <td>Label Propagation, Self-training</td>
+          <td>Classificação médica</td>
+        </tr>
+      </tbody>
+      <tfoot> <!-- Rodapé da tabela com a fonte bibliográfica; colspan abrange todas as 4 colunas -->
+        <tr>
+          <td colspan="4">Fonte: adaptado de Géron, A. <em>Hands-On Machine Learning</em>, O'Reilly, 2022.</td>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+  <div id="redes-neurais"> <!-- Seção sobre redes neurais com vídeo incorporado -->
+    <h2>Redes Neurais e Aprendizado Profundo</h2>
+    <p>
+      As Redes Neurais Artificiais são modelos computacionais formados por camadas de neurônios interconectados.
+      O Aprendizado Profundo utiliza redes com dezenas ou centenas de camadas para aprender representações
+      hierárquicas dos dados, revolucionando tarefas como reconhecimento de voz e tradução automática.
+    </p>
+    <p>
+      Arquiteturas notáveis incluem as Redes Convolucionais (CNN), especializadas em imagens; as Redes
+      Recorrentes (RNN/LSTM), para dados sequenciais; e os Transformers, base dos grandes modelos de linguagem
+      como GPT e BERT.
+    </p>
+    <h2>Vídeo: Como funcionam as Redes Neurais?</h2>
+    <p>Assista ao vídeo abaixo para entender de forma visual como uma rede neural aprende:</p>
+    <!-- iframe incorpora o vídeo do YouTube diretamente na página; allowfullscreen permite tela cheia -->
+    <iframe width="560" height="315"
+      src="https://www.youtube.com/embed/i6l3R7j95x8"
+      title="Mas o que é uma Rede Neural? – 3Blue1Brown"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+  </div>
+  <div id="aplicacoes"> <!-- Seção com exemplos de aplicações reais da IA -->
+    <h2>Aplicações da IA no Mundo Real</h2>
+    <p>
+      A Inteligência Artificial está presente em praticamente todos os setores. De assistentes virtuais a
+      sistemas de diagnóstico médico, a IA transforma a forma como vivemos e trabalhamos. Aplicações incluem:
+      carros autônomos, detecção de fraudes, recomendação de conteúdo e geração de código-fonte.
+    </p>
+  </div>
+  <div id="etica"> <!-- Seção sobre dilemas éticos no uso da IA -->
+    <h2>Ética em Inteligência Artificial</h2>
+    <p>
+      Com o avanço da IA surgem importantes questões éticas. Algoritmos podem perpetuar vieses presentes nos
+      dados de treinamento, gerando discriminação em processos seletivos ou reconhecimento facial.
+      A transparência dos modelos e o impacto no mercado de trabalho exigem regulação cuidadosa e debate amplo.
+    </p>
+  </div>
+  <div id="formulario"> <!-- Seção com formulário de contato -->
+    <h2>Formulário de Contato e Interesse</h2>
+    <p>Preencha o formulário abaixo para entrar em contato ou indicar assuntos de interesse:</p>
+    <form action="#" method="post"> <!-- action="#" mantém na mesma página ao enviar -->
+      <fieldset> <!-- Agrupa os campos de dados pessoais -->
+        <legend>Dados Pessoais</legend>
+        <label for="nome">Nome completo</label><br>
+        <input type="text" id="nome" name="nome" placeholder="Seu nome" required><br><br> <!-- required torna o campo obrigatório -->
+        <label for="email" class="label-destaque">E-mail</label><br>
+        <input type="email" id="email" name="email" placeholder="seu@email.com" required><br><br> <!-- type="email" valida o formato automaticamente -->
+        <label for="telefone" class="label-destaque">Telefone</label><br>
+        <input type="tel" id="telefone" name="telefone" placeholder="(51) 99999-9999"><br><br>
+        <label for="nascimento">Data de nascimento</label><br>
+        <input type="date" id="nascimento" name="nascimento"><br><br> <!-- type="date" exibe um seletor de calendário -->
+      </fieldset>
+      <fieldset> <!-- Agrupa os campos de interesse e mensagem -->
+        <legend>Interesse e Mensagem</legend>
+        <label for="nivel" class="label-destaque">Nível de conhecimento em IA</label><br>
+        <select id="nivel" name="nivel"> <!-- Menu suspenso (dropdown) -->
+          <option value="">Selecione...</option> <!-- Opção padrão sem valor -->
+          <option value="iniciante">Iniciante</option>
+          <option value="intermediario">Intermediário</option>
+          <option value="avancado">Avançado</option>
+        </select><br><br>
+        <label for="assunto" class="label-destaque">Assunto de interesse</label><br>
+        <select id="assunto" name="assunto">
+          <option value="">Selecione...</option>
+          <option value="ml">Aprendizado de Máquina</option>
+          <option value="dl">Aprendizado Profundo</option>
+          <option value="pln">Processamento de Linguagem Natural</option>
+          <option value="visao">Visão Computacional</option>
+          <option value="etica">Ética em IA</option>
+        </select><br><br>
+        <label for="mensagem">Mensagem</label><br>
+        <textarea id="mensagem" name="mensagem" cols="50" rows="5" placeholder="Escreva sua mensagem aqui..."></textarea><br><br> <!-- cols e rows definem o tamanho inicial da área de texto -->
+        <input type="checkbox" id="newsletter" name="newsletter" value="sim"> <!-- Checkbox opcional para inscrição na newsletter -->
+        <label for="newsletter">Desejo receber novidades sobre IA por e-mail.</label><br><br>
+        <label>Como ficou sabendo desta página?</label><br>
+        <!-- Radio buttons: mesmo name="origem" garante que apenas uma opção seja selecionada por vez -->
+        <input type="radio" name="origem" value="busca" id="busca">
+        <label for="busca">Busca na internet</label>
+        <input type="radio" name="origem" value="amigo" id="amigo">
+        <label for="amigo">Indicação de amigo</label>
+        <input type="radio" name="origem" value="redes-sociais" id="redes-sociais">
+        <label for="redes-sociais">Redes sociais</label>
+        <input type="radio" name="origem" value="faculdade" id="faculdade">
+        <label for="faculdade">Faculdade/escola</label><br><br>
+      </fieldset>
+      <button type="submit">Enviar mensagem</button> <!-- type="submit" envia os dados do formulário -->
+    </form>
+  </div>
+</main>
+<footer> <!-- Rodapé com informações do autor e copyright -->
+  <p>Desenvolvido por <strong>Luan de Oliveira Ferreira</strong> &mdash; Trabalho 1 de Front-End</p>
+  <p>Disciplina: Desenvolvimento Web &mdash; Instituto Federal do Rio Grande do Sul</p>
+  <p>Email: 2025311541@aluno.riogrande.ifrs.edu.br</p>
+  <p>Telefone: +55 53 999690786</p>
+  <p>&copy; 2026 &mdash; Todos os direitos reservados a Luan de Oliveira Ferreira.</p> <!-- &copy; gera o símbolo © -->
+</footer>
+</body>
 </html>
